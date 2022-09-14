@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnIntent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent secondaryView = new Intent(MainActivity.this, SecondLoadingActivity.class);
+                Intent secondaryView = new Intent(MainActivity.this, CalculatorActivity.class);
                 startActivity(secondaryView);
             }
         });

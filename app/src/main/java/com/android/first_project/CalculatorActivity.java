@@ -22,7 +22,6 @@ public class CalculatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
         //Calculadora
-        setContentView(R.layout.activity_main);
         num1 = (EditText) findViewById(R.id.num1);
         num2 = (EditText) findViewById(R.id.num2);
         txtResult = (TextView) findViewById(R.id.txtResult);
